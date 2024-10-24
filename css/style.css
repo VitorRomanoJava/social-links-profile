@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+main{
+    background-color: hsl(0, 0%, 12%);
+    max-width: 416px;
+    border-radius: 15px;
+}
+main img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:  10rem;
+    border-radius: 50%;
+    width: 25%;
+    margin-top: -30%;
+}
+nav#profile h1{
+    color: white;
+    margin-top: -30%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+nav#profile h2{
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+nav#profile span{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-weight: 100;
+}
+div#social-medias ul{
+    list-style: none;
+    position: relative;
+    left: 40px;
+    top: -20px;
+}
+div#social-medias li{
+    text-align: center;
+    background-color: hsl(0, 0%, 20%);
+    font-weight: 600;
+    width: 280px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background 0.3s;
+}
+div#social-medias li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+div#social-medias li:hover{
+    background-color: hsl(75, 94%, 57%);
+}
+div#social-medias li:hover a {
+    color: hsl(0, 0%, 8%);
+    font-weight: 600;
+}
+
